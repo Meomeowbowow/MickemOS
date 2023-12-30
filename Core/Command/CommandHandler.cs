@@ -73,6 +73,11 @@ namespace MickemOS.Commands
                     Console.Write("Kernel Version: MickemOS Kernel " + MickemOS.Kernel.Kernel.kernel_ver +"\n");
                     Console.Write("OS Version: MickemOS 1 | Build " + MickemOS.Kernel.Kernel.os_build + "\n");
                 }
+
+                if (command.ToLower() == "beep")
+                {
+                    Console.Beep();
+                }
             }
         }
     }
