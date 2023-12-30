@@ -9,8 +9,8 @@ namespace MickemOS.Kernel
 {
     public class Kernel : Sys.Kernel
     {
-        public static string kernel_ver = "1.6";
-        public static string os_build = "1406";
+        public static string kernel_ver = "1.8";
+        public static string os_build = "1608";
 
         protected override void BeforeRun()
         {

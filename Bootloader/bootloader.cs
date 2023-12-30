@@ -47,7 +47,14 @@ namespace MickemOS.Bootloader
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("  ] ");
             Console.Write("Loading All MickemOS Files...\n");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
+            Console.Write("[  ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("OK");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("  ] ");
+            Console.Write("Collecting Device Data...\n");
+            Thread.Sleep(5000);
             Console.Write("[  ");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("OK");
