@@ -9,10 +9,12 @@ MickemOS is a console-based operating system made by Operate+. It is written in 
 - `minfo` - Shows the information about your current MickemOS Build, Release and Kernel.
 - `shutdown` - Shuts down your machine.
 - `restart` - Restarts your machine.
+- `beep` - Plays a beep noise.
 ## Update Log
-- v1.0.0 - The start of MickemOS
-- v1.0.1 - Added and moved commands to `CommandHandler.cs`.
-- v1.0.2 - Added the `README.md` to the MickemOS GitHub Page.
-- v1.0.3 - Added Updates to the MickemOS Kernel.
-- v1.0.4 - Fixed MickemOS Kernel version bug in `CommandHandler.cs`.
-- v1.0.4 - Added `Bootloader` folder and `bootloader.cs`.
+- v0.0.1 - The start of MickemOS
+- v0.0.2 - Added and moved commands to `CommandHandler.cs`.
+- v0.0.3 - Added the `README.md` to the MickemOS GitHub Page.
+- v0.0.4 - Added Updates to the MickemOS Kernel.
+- v0.0.5 - Fixed MickemOS Kernel version bug in `CommandHandler.cs`.
+- v0.0.6 - Added `Bootloader` folder and `bootloader.cs`.
+- v0.0.7 - Added Beep Command.
