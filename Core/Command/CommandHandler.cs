@@ -17,7 +17,7 @@ namespace MickemOS.Commands
             while (true)
             {
                 string command;
-                Console.Write("$$mickem>");
+                Console.Write("user@mickem>");
                 command = Console.ReadLine();
 
                 if (command.ToLower() == "echo")

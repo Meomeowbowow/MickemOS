@@ -8,8 +8,8 @@ namespace MickemOS.Kernel
 {
     public class Kernel : Sys.Kernel
     {
-        public static string kernel_ver = "1.0";
-        public static string os_build = "1209";
+        public static string kernel_ver = "1.4";
+        public static string os_build = "1305";
 
         protected override void BeforeRun()
         {
@@ -47,6 +47,14 @@ namespace MickemOS.Kernel
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("  ] ");
             Console.Write("Loading All MickemOS Files...\n");
+            Thread.Sleep(2000);
+            Console.Write("[  ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("OK");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("  ] ");
+            Console.Write("Starting file 'Main.cs'...\n");
+            Thread.Sleep(1000);
             Console.Write("Welcome to ");
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Write("MickemOS");
