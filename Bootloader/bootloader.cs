@@ -4,7 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+/*
+ * PROJECT: MICKEM OS BOOTLOADER
+ * VERSION: 0.2
+ * PROGRAMMER: MEOMEOWBOWOW
+ * FILE: BOOTLOADER/BOOTLOADER.CS
+ */
+
+using System.IO;
 using MickemOS.Core;
+using Sys = Cosmos.System;
 
 namespace MickemOS.Bootloader
 {

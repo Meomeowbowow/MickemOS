@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * PROJECT: MICKEM OS COMMAND HANDLER
+ * VERSION: 0.1
+ * PROGRAMMER: MEOMEOWBOWOW
+ * FILE: /CORE/COMMAND/COMMANDHANDLER.CS
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

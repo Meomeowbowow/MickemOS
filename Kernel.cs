@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * PROJECT: MICKEM OS KERNEL
+ * VERSION: 0.8
+ * PROGRAMMER: MEOMEOWBOWOW
+ * FILE: KERNEL.CS
+ */
+
+
+
+using System;
 using System.Threading;
 using System.IO;
 using Sys = Cosmos.System;
@@ -9,7 +18,7 @@ namespace MickemOS.Kernel
 {
     public class Kernel : Sys.Kernel
     {
-        public static string kernel_ver = "1.8";
+        public static string kernel_ver = "0.8";
         public static string os_build = "1956";
 
         protected override void BeforeRun()

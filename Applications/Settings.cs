@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * PROJECT: MICKEM OS SETTINGS APP
+ * VERSION: 0.1
+ * PROGRAMMER: MEOMEOWBOWOW
+ * FILE: /APPLICATIONS/SETTINGS.CS
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
