@@ -65,12 +65,12 @@ namespace MickemOS.Commands
 
                 if (command.ToLower() == "kernel-ver")
                 {
-                    Console.Write("Kernel Version: MickemOS Kernel 1.0\n");
+                    Console.Write("Kernel Version: MickemOS Kernel " + MickemOS.Kernel.Kernel.kernel_ver + "\n");
                 }
 
                 if (command.ToLower() == "minfo")
                 {
-                    Console.Write("Kernel Version: MickemOS Kernel" + MickemOS.Kernel.Kernel.kernel_ver +"\n");
+                    Console.Write("Kernel Version: MickemOS Kernel " + MickemOS.Kernel.Kernel.kernel_ver +"\n");
                     Console.Write("OS Version: MickemOS 1 | Build " + MickemOS.Kernel.Kernel.os_build + "\n");
                 }
             }
