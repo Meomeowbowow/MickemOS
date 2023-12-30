@@ -9,6 +9,7 @@ MickemOS is a console-based operating system made by Operate+. It is written in 
 - `minfo` - Shows the information about your current MickemOS Build, Release and Kernel.
 - `shutdown` - Shuts down your machine.
 - `restart` - Restarts your machine.
+- `beep` - Plays a beep noise.
 ## Update Log
 - v1.0.0 - The start of MickemOS
 - v1.0.1 - Added and moved commands to `CommandHandler.cs`.
