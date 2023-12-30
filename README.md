@@ -12,3 +12,5 @@ MickemOS is a console-based operating system made by Operate+. It is written in 
 - v1.0.0 - The start of MickemOS
 - v1.0.1 - Added and moved commands to `CommandHandler.cs`.
 - v1.0.2 - Added the `README.md` to the MickemOS GitHub Page.
+- v1.0.3 - Added Updates to the MickemOS Kernel.
+- v1.0.4 - Fixed MickemOS Kernel version bug in `CommandHandler.cs`
