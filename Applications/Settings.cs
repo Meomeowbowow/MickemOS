@@ -3,7 +3,7 @@
  * VERSION: 0.1
  * PROGRAMMER: MEOMEOWBOWOW
  * FILE: /APPLICATIONS/SETTINGS.CS
- */
+*/
 
 using System;
 using System.Collections.Generic;

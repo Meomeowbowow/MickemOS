@@ -8,8 +8,8 @@ using System.Threading;
  * PROJECT: MICKEM OS BOOTLOADER
  * VERSION: 0.2
  * PROGRAMMER: MEOMEOWBOWOW
- * FILE: BOOTLOADER/BOOTLOADER.CS
- */
+ * FILE: /BOOTLOADER/BOOTLOADER.CS
+*/
 
 using System.IO;
 using MickemOS.Core;

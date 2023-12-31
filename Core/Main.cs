@@ -3,7 +3,7 @@
  * VERSION: 0.6
  * PROGRAMMER: MEOMEOWBOWOW
  * FILE: MAIN.CS
- */
+*/
 
 using System;
 using System.Collections.Generic;
